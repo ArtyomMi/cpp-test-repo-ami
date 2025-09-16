@@ -1,5 +1,9 @@
-#include <iostream>
+// В этом файле только функция main и #include-директивы.
+#include "calculator.h"
+using Number = double;
 
-int main() {
-    std::cout << "Hello, Git!" << std::endl;
+
+int main()
+{
+     RunCalculatorCycle();
 }
